@@ -5,7 +5,7 @@
 const double TAX_RATE = 0.0775;
 
 // Calculates the subtotal of three item prices.
-double calculateSubtotal(double item1, double item2, double item3);
+double calculateSubtotal(double Appetizers, double Entrees, double Drinks);
 
 // Calculates sales tax using the required TAX_RATE.
 double calculateTax(double subtotal);
